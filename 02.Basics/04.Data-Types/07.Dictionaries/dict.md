@@ -1,0 +1,1 @@
+**Dictionaries** are collection of data as key-value pairs, it is an unordered, but keeps insertion order in python 3.7+, mutable,key-indexed,unique keys later key will be overridden
