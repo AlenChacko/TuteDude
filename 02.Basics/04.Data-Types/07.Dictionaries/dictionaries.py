@@ -54,3 +54,34 @@ for key in user:
 # or
 for key, value in user.items():
     print(f"{key} = {value}")
+
+
+# keys in dict
+# immutable data types can be used as key in a dict.
+# eg: int float string bool tuple None frozenset
+# list set dict bytearray aren't allowed
+
+# int keys
+d_1 = {1: "One", 2: "Two", 3: "Three"}
+print(d_1)
+
+# float keys
+d_2 = {1.2: "Two.One", 3.7: "Three.Seven"}
+print(d_2)
+
+# string
+d_3 = {"Name": "Alen", "Age": 26}
+print(d_3)
+
+# Tuple keys (only if tuple contains immutables)
+d_4 = {(1, 2): "Point A", (3, 4): "Point B"}
+print(d_4)
+# d_5 = {(12, 34, [2, 3, 4]): "Name"} Error
+# print(d_5)
+
+# Boolean keys
+d_6 = {True: "Yes", False: "No"}
+print(d_6)
+
+d_7 = {None: "Nothing"}
+print(d_7)
