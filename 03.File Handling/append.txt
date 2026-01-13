@@ -1,0 +1,7 @@
+This is the firstline adding to the append.txt file
+This is the secondline adding to the append.txt file
+This is the firstline adding to the append.txt file
+This is the secondline adding to the append.txt file
+My name is Alen
+I'm a 26 year old male
+Suffering from unemployment
